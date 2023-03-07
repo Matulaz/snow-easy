@@ -1,0 +1,19 @@
+:root{
+    --violeta: #4D455D;
+    --rosa: #E96479;
+    --beige: #F5E9CF;
+    --verde: #7DB9B6;
+}
+
+.body{
+    background-color: var(--violeta);
+    color:white
+}
+
+img{
+    width:15%;
+}
+
+p{
+    padding: 1em 0em;
+}
