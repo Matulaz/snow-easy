@@ -1,0 +1,24 @@
+:root{
+    --violeta: #4D455D;
+    --rosa: #E96479;
+    --beige: #F5E9CF;
+    --verde: #7DB9B6;
+}
+
+.body{
+    background-color: var(--violeta);
+}
+
+img{
+    width:60%;
+    transition: 0.15s linear
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+}
+
