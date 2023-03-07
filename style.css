@@ -17,11 +17,11 @@ img{
 }
 
 #logoChapelco{
-    width:23%
+    width:100%
 }
 
 #logoLenas{
-    width:18%;
+    width:80%;
     margin: 0.8em 0 0.8em 1em
 
 }
@@ -31,7 +31,7 @@ img{
     margin-bottom:1em
 }
 
-img:hover{
+img:active{
     transform: scale(1.2);
     opacity:1
 }
