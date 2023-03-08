@@ -7,35 +7,67 @@
 
 .body{
     background-color: var(--violeta);
-    color:white
+    color:white;
+    margin:0px
 }
 
-img{
-    width:60%;
-    transition: 0.15s linear;
-    opacity:0.9
+#logoRoqueAllende{
+    width:30%;
+    padding: 0.5em 0em
 }
 
-#logoChapelco{
-    width:100%
+.banner{
+    width:0px
 }
 
-#logoLenas{
-    width:80%;
-    margin: 0.8em 0 0.8em 1em
-
+.botonera{
+    height: 10vh;
 }
 
-#logoVertical{
-    width:10%;
-    margin-bottom:1em
+#btn-buscar{
+        margin-top:2em;
+        --bs-btn-color: #fff;
+        --bs-btn-bg: var(--rosa);
+        --bs-btn-border-color: var(--rosa);
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: var(--rosa);
+        --bs-btn-hover-border-color: #0a58ca;
+        --bs-btn-focus-shadow-rgb: 49,132,253;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: var(--rosa);
+        --bs-btn-active-border-color: var(--rosa);
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        --bs-btn-disabled-color: #fff;
+        --bs-btn-disabled-bg: var(--rosa);
+        --bs-btn-disabled-border-color: --rosa;
+    }
+
+.logoVertical{
+    width:150px;
+    padding:5px
 }
 
-img:active{
-    transform: scale(1.2);
-    opacity:1
+.logoPases{
+    width:70px;
+    padding:5px;
 }
 
-a{
-    text-decoration: none;
+
+
+/*Media Querys*/
+
+@media (max-width:600px){
+    #logoRoqueAllende{
+        width:60%;
+    }
+
+    .banner{
+        width:390px;
+        padding:0;
+        margin:0;
+        border:0;
+    }
+    
+    
+
 }

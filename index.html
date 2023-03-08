@@ -4,44 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snow-Easy</title>
+    <title>Document</title>
 
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 </head>
 <body class="body">
-
-    <div class="row">
-        <div id="logoRoqueAllende" class="col"></div>
-    </div>
-
     <div class="container text-center">
-    <div id="logosCentros" class="row">
-        <div class="col-12 align-self-center">
-            <a href="./check-in.html"><button id="logoLenas" class="btn"><img src="./img/laslenas_vect_logo.png" alt="las lenas mendoza"></button></a>
-        </div>
-        <div class="col-12 align-self-center">
-            <a href="./check-in.html"><button id="logoChapelco" class="btn"><img src="https://www.chapelco.com/images/logo.png" alt="cerro chapelco"></button></a>
-        </div>
-        <div class="col-12 align-self-center">
-            <a href="./check-in.html"><button id="logoCastor" class="btn"><img src="./img/logoCastor.svg" alt="cerro castor ushuaia"></button></a>
-        </div>
-        <div class="col-12 align-self-center">
-            <a href="./check-in.html"><button id="logoCatedral" class="btn"><img src="./img/logoCatedral.svg" alt="cerro catedral bariloche"></button></a>
+        <div class="row align-items-start">
+            <div class="col">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    </div>
+                    </nav>
+            </div>
+            
+            <div class="col">
+                    <img src="./img/logoRoqueAllende.svg" alt="roque allende ski" id="logoRoqueAllende" class="img-fluid">
+            </div>
+            <div class="col"></div>
         </div>
     </div>
-    </div>
 
+    <section>
+        <img class='banner' src="./img/banner1.jpg" alt="">
+    </section>
 
+    <main>
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col botonera">
+                    <img src="./img/logoVertical.webp" class="logoVertical" alt="">
+                    <!-- <button class="btn">Rental</button> -->
+                </div>
+                <div class="col botonera">
+                    <img src="./img/telesilla.png" class="logoPases" alt="">
+                    <!-- <button class="btn">Pases</button> -->
+                </div>
+        </div>
+<!-- Centro de Ski -->
+        <div>
+            <div>
+                <h4>CENTRO DE SKI</h4>
+                <select class="form-select">
+                    <option selected>Las Leñas</option>
+                    <option value="2">Chapelco</option>
+                    <option value="3">Castor</option>
+                    <option value="4">Catedral</option>
+                </select>
+            </div>    
+        </div>
 
+<!-- Equipos -->
+        <div>
+            <div>
+                <h4>EQUIPOS</h4>
+                <select class="form-select">
+                    <option selected><span class="texto-secundario">Que tipo de equipos necesitas?</span></option>
+                    <option value="1">Ski SPORT</option>
+                    <option value="2">Ski ALTA GAMA</option>
+                    <option value="3">Snowboard SPORT</option>
+                    <option value="4">Snowboard ALTA GAMA</option>
+                </select>
+            </div>    
+        </div>
+<!-- Pasajero -->
+        <div>
+            <div>
+                <h4>PASAJERO</h4>
+                <select class="form-select">
+                    <option selected>Adulto (+12 Años)</option>
+                    <option value="1">Menor (6 a 11 Años)</option>
+                    <option value="2">Child (3 a 5 Años)</option>
+                    <option value="3">Infant (0 a 2 Años)</option>
+                </select>
+            </div>    
+        </div>
 
+<!-- botonera -->
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" id="btn-buscar" type="button">Buscar</button>
+        </div>
 
+    </main>
 
+    <!-- <footer><p>Snow Easy un producto de Roque Allende SA - Leg.15115</p></footer> -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="app.js"></script> 
 
 </body>
 </html>
