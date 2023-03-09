@@ -20,9 +20,6 @@
     width:0px
 }
 
-.botonera{
-    height: 10vh;
-}
 
 #btn-buscar{
         margin-top:2em;
@@ -41,21 +38,31 @@
         --bs-btn-disabled-bg: var(--rosa);
         --bs-btn-disabled-border-color: --rosa;
     }
-
+    
 .logoVertical{
-    width:150px;
-    padding:5px
-}
+        width:150px;
+        padding:5px;
 
+}
+    
 .logoPases{
     width:70px;
     padding:5px;
+    opacity:0.6;  
 }
 
-.col.botonera2{
-    background-color:#363042;
-    border-bottom: var(--beige) solid;
-    opacity:0.6;
+.col.botonera{
+    opacity:0.5;
+    background-color:#3e384b;
+    border-bottom: #292531 solid 2px;
+    --webkit-filter: grayscale(0.5);
+    height: 10vh;
+}
+
+.col.botonera:focus{
+    --webkit-filter: grayscale(0);
+    opacity:1;
+
 }
 
 
@@ -72,7 +79,6 @@
         margin:0;
         border:0;
     }
-    
-    
+
 
 }
